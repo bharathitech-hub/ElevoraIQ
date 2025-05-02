@@ -1,0 +1,301 @@
+Candidate_ID,Education_Level,Years_of_Experience,Skills,Certifications,Aptitude_Score,Industry,Location,Job_Role,Company_Type,Soft_Skills,Gender,Work_Gap_Status,Notice_Period,Interview_Score,Current_Salary,Expected_Salary
+1,BCA,3,Tableau; Power BI; Excel,AWS ML Certification,83,BFSI,Pune,ML Engineer,MNC,Excellent,Male,Yes,30 Days,64,807332,1039125
+2,B.Sc,6,Tableau; Power BI; Excel,Six Sigma Green Belt,60,Healthcare,Bangalore,Business Analyst,Startup,Excellent,Female,Yes,30 Days,96,678881,765993
+3,MCA,10,Python; SQL; Machine Learning,None,65,IT Services,Mumbai,Data Analyst,MNC,Excellent,Male,No,60 Days,94,1794784,2533471
+4,B.Sc,2,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,54,Consulting,Hyderabad,Software Developer,Product-Based,Excellent,Male,No,Immediate,71,1760593,2350802
+5,B.Sc,6,Deep Learning; NLP; Computer Vision,AWS ML Certification,63,AI/ML,Hyderabad,ML Engineer,Startup,Good,Other,No,Immediate,65,1535107,1710240
+6,BCA,4,Java; Spring Boot; SQL,AWS ML Certification,79,BFSI,Delhi,Business Analyst,Startup,Excellent,Male,No,Immediate,53,575216,759458
+7,BCA,3,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,83,BFSI,Hyderabad,Data Analyst,MNC,Good,Female,No,30 Days,99,1584535,1851732
+8,MCA,7,Tableau; Power BI; Excel,AWS ML Certification,81,AI/ML,Chennai,Data Analyst,Service-Based,Excellent,Other,No,Immediate,90,942184,1346761
+9,B.Tech,1,Business Analytics; Excel,IBM Data Science,68,E-commerce,Mumbai,Business Analyst,Product-Based,Good,Other,No,30 Days,65,738464,846607
+10,MBA,3,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,65,AI/ML,Chennai,Data Analyst,Product-Based,Average,Male,Yes,Immediate,70,829451,1233447
+11,MCA,3,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,79,IT Services,Bangalore,Data Scientist,Startup,Average,Other,Yes,Immediate,51,583307,681892
+12,MCA,10,Java; Spring Boot; SQL,None,71,BFSI,Chennai,Business Analyst,Startup,Average,Other,No,30 Days,90,1531315,2018804
+13,B.Tech,8,Python; SQL; Machine Learning,Microsoft Azure Certification,95,BFSI,Pune,ML Engineer,Startup,Average,Other,Yes,Immediate,50,485476,723915
+14,MBA,7,Cloud Computing; AWS; Azure,IBM Data Science,86,Healthcare,Delhi,Business Analyst,Startup,Good,Female,Yes,Immediate,52,1271203,1796319
+15,BCA,8,Java; Spring Boot; SQL,Six Sigma Green Belt,97,BFSI,Delhi,Software Developer,Product-Based,Good,Other,Yes,30 Days,59,1187551,1734743
+16,MCA,3,Cloud Computing; AWS; Azure,None,54,E-commerce,Hyderabad,Software Developer,Product-Based,Average,Other,No,60 Days,57,778892,958084
+17,B.Tech,9,Python; SQL; Machine Learning,Six Sigma Green Belt,53,AI/ML,Pune,Data Analyst,MNC,Average,Female,Yes,60 Days,93,871945,1034460
+18,B.Tech,5,Python; SQL; Machine Learning,None,56,Healthcare,Mumbai,ML Engineer,Startup,Average,Other,No,60 Days,86,310256,410585
+19,BCA,5,Deep Learning; NLP; Computer Vision,None,73,AI/ML,Mumbai,Data Analyst,Product-Based,Excellent,Male,Yes,60 Days,100,1641472,1907836
+20,BCA,0,Java; Spring Boot; SQL,IBM Data Science,56,AI/ML,Hyderabad,Data Analyst,Service-Based,Average,Female,Yes,Immediate,62,323228,407852
+21,M.Tech,8,Business Analytics; Excel,Six Sigma Green Belt,77,AI/ML,Hyderabad,ML Engineer,Product-Based,Excellent,Female,No,Immediate,86,1923358,2446488
+22,M.Tech,3,Tableau; Power BI; Excel,Six Sigma Green Belt,79,Healthcare,Bangalore,Data Scientist,MNC,Good,Female,No,Immediate,59,1675399,1944126
+23,B.Tech,10,Java; Spring Boot; SQL,Oracle Java Certification,50,E-commerce,Delhi,ML Engineer,MNC,Average,Other,Yes,15 Days,59,1202761,1525077
+24,MCA,5,Cloud Computing; AWS; Azure,AWS ML Certification,78,Healthcare,Delhi,Software Developer,Service-Based,Average,Male,No,15 Days,57,457375,625171
+25,B.Sc,10,Cloud Computing; AWS; Azure,Microsoft Azure Certification,76,IT Services,Bangalore,Data Scientist,MNC,Excellent,Male,No,15 Days,67,407050,521104
+26,BCA,10,Cloud Computing; AWS; Azure,None,93,IT Services,Bangalore,Business Analyst,Service-Based,Average,Other,No,15 Days,69,953109,1259285
+27,M.Tech,2,Java; Spring Boot; SQL,Six Sigma Green Belt,100,BFSI,Bangalore,ML Engineer,Startup,Good,Other,No,30 Days,81,1114105,1635098
+28,MCA,9,Python; SQL; Machine Learning,Oracle Java Certification,65,AI/ML,Bangalore,ML Engineer,MNC,Excellent,Female,No,15 Days,55,1414960,2046757
+29,B.Sc,9,Cloud Computing; AWS; Azure,Oracle Java Certification,63,Healthcare,Chennai,Business Analyst,Product-Based,Excellent,Female,No,15 Days,59,756705,931039
+30,B.Sc,0,Deep Learning; NLP; Computer Vision,IBM Data Science,95,E-commerce,Hyderabad,ML Engineer,Service-Based,Good,Other,No,15 Days,56,921708,1075724
+31,BCA,10,Tableau; Power BI; Excel,Microsoft Azure Certification,93,Consulting,Chennai,ML Engineer,Product-Based,Excellent,Female,No,60 Days,74,718866,898048
+32,B.Tech,3,Java; Spring Boot; SQL,IBM Data Science,73,IT Services,Hyderabad,Data Analyst,Service-Based,Average,Other,No,Immediate,79,1663062,1916879
+33,BCA,9,Business Analytics; Excel,Oracle Java Certification,99,IT Services,Mumbai,ML Engineer,Service-Based,Excellent,Male,Yes,Immediate,83,430397,497304
+34,B.Sc,2,Cloud Computing; AWS; Azure,Six Sigma Green Belt,56,E-commerce,Pune,Software Developer,Product-Based,Excellent,Other,No,60 Days,66,1515800,1707588
+35,B.Sc,7,Deep Learning; NLP; Computer Vision,None,93,AI/ML,Pune,Software Developer,MNC,Good,Male,Yes,15 Days,53,1475542,2172775
+36,B.Tech,3,Python; SQL; Machine Learning,Microsoft Azure Certification,73,Consulting,Bangalore,Business Analyst,Product-Based,Average,Female,Yes,Immediate,77,983681,1211753
+37,M.Tech,9,Business Analytics; Excel,Microsoft Azure Certification,69,BFSI,Delhi,Data Scientist,Product-Based,Excellent,Male,Yes,15 Days,85,504672,625330
+38,BCA,7,Deep Learning; NLP; Computer Vision,Oracle Java Certification,79,BFSI,Hyderabad,Data Scientist,Service-Based,Good,Female,No,Immediate,75,904732,1312422
+39,M.Tech,7,Business Analytics; Excel,IBM Data Science,57,BFSI,Bangalore,Software Developer,Startup,Average,Male,No,60 Days,93,1620832,2229225
+40,BCA,10,Business Analytics; Excel,AWS ML Certification,68,AI/ML,Delhi,ML Engineer,Startup,Average,Male,Yes,30 Days,79,1590924,1989980
+41,BCA,4,Cloud Computing; AWS; Azure,Six Sigma Green Belt,87,Consulting,Delhi,Business Analyst,Service-Based,Excellent,Other,Yes,15 Days,60,1128857,1625447
+42,MBA,7,Tableau; Power BI; Excel,Microsoft Azure Certification,83,AI/ML,Delhi,Data Scientist,Startup,Excellent,Other,Yes,Immediate,98,945000,1061357
+43,M.Tech,0,Business Analytics; Excel,None,69,BFSI,Delhi,Data Scientist,Product-Based,Excellent,Female,No,15 Days,93,1208402,1745332
+44,B.Tech,9,Deep Learning; NLP; Computer Vision,IBM Data Science,76,Consulting,Bangalore,Business Analyst,Product-Based,Average,Other,Yes,30 Days,80,987283,1427239
+45,MBA,6,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,82,BFSI,Pune,Data Scientist,Product-Based,Excellent,Other,Yes,Immediate,85,1146489,1423360
+46,M.Tech,1,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,71,IT Services,Chennai,ML Engineer,MNC,Average,Male,No,30 Days,91,1140794,1554460
+47,B.Tech,5,Java; Spring Boot; SQL,AWS ML Certification,83,AI/ML,Pune,Data Analyst,Service-Based,Average,Other,No,Immediate,61,612083,680690
+48,MCA,5,Cloud Computing; AWS; Azure,AWS ML Certification,82,IT Services,Pune,ML Engineer,Product-Based,Excellent,Female,No,Immediate,75,1384502,1763474
+49,MCA,3,Cloud Computing; AWS; Azure,None,87,AI/ML,Delhi,ML Engineer,Product-Based,Average,Other,Yes,30 Days,78,1909521,2209204
+50,MCA,9,Cloud Computing; AWS; Azure,None,88,Consulting,Chennai,ML Engineer,Product-Based,Good,Male,Yes,15 Days,68,1473739,2175726
+51,B.Tech,0,Python; SQL; Machine Learning,None,88,Consulting,Mumbai,Data Analyst,Product-Based,Good,Male,No,15 Days,78,1220540,1501907
+52,MCA,6,Java; Spring Boot; SQL,Microsoft Azure Certification,99,BFSI,Bangalore,Business Analyst,Startup,Excellent,Male,Yes,15 Days,100,1823219,2207757
+53,MCA,9,Tableau; Power BI; Excel,IBM Data Science,70,BFSI,Bangalore,Data Analyst,MNC,Good,Other,No,30 Days,64,964270,1130409
+54,MBA,8,Business Analytics; Excel,None,85,IT Services,Hyderabad,Data Scientist,Startup,Average,Male,No,15 Days,84,1022095,1257934
+55,B.Tech,7,Deep Learning; NLP; Computer Vision,IBM Data Science,85,IT Services,Mumbai,Data Scientist,Service-Based,Good,Other,Yes,30 Days,52,1033375,1464350
+56,B.Sc,0,Business Analytics; Excel,IBM Data Science,50,Healthcare,Delhi,ML Engineer,Startup,Excellent,Male,Yes,60 Days,67,1539387,2242613
+57,MCA,0,Cloud Computing; AWS; Azure,None,81,AI/ML,Mumbai,Software Developer,Service-Based,Excellent,Female,Yes,Immediate,100,1395935,1767354
+58,M.Tech,4,Python; SQL; Machine Learning,IBM Data Science,56,IT Services,Mumbai,Data Analyst,MNC,Average,Male,No,15 Days,54,796337,1099443
+59,B.Sc,9,Cloud Computing; AWS; Azure,Oracle Java Certification,84,IT Services,Pune,Data Scientist,Product-Based,Average,Male,Yes,60 Days,75,731612,1070306
+60,B.Sc,1,Python; SQL; Machine Learning,None,54,BFSI,Hyderabad,ML Engineer,Service-Based,Good,Female,No,15 Days,65,1518664,2176751
+61,B.Tech,2,Deep Learning; NLP; Computer Vision,None,83,Healthcare,Pune,Business Analyst,Startup,Excellent,Other,Yes,Immediate,71,1890123,2528731
+62,BCA,5,Tableau; Power BI; Excel,Six Sigma Green Belt,55,BFSI,Hyderabad,ML Engineer,Product-Based,Good,Other,Yes,30 Days,78,1110187,1392627
+63,B.Tech,7,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,73,BFSI,Pune,ML Engineer,Product-Based,Excellent,Other,No,Immediate,62,1860658,2112155
+64,B.Sc,2,Cloud Computing; AWS; Azure,IBM Data Science,82,AI/ML,Mumbai,Data Scientist,MNC,Good,Other,No,15 Days,70,674713,949729
+65,B.Sc,4,Python; SQL; Machine Learning,Six Sigma Green Belt,63,Consulting,Delhi,Business Analyst,Product-Based,Average,Female,Yes,60 Days,78,547172,715459
+66,MBA,5,Python; SQL; Machine Learning,AWS ML Certification,66,Consulting,Bangalore,Data Analyst,Startup,Good,Other,No,15 Days,67,1751315,2254009
+67,M.Tech,7,Tableau; Power BI; Excel,Six Sigma Green Belt,68,IT Services,Hyderabad,ML Engineer,Startup,Excellent,Male,Yes,60 Days,94,1005097,1326252
+68,B.Sc,3,Deep Learning; NLP; Computer Vision,Oracle Java Certification,57,IT Services,Mumbai,ML Engineer,Service-Based,Good,Other,Yes,Immediate,78,629067,840298
+69,B.Tech,5,Deep Learning; NLP; Computer Vision,AWS ML Certification,76,Healthcare,Hyderabad,Data Analyst,Startup,Average,Female,No,30 Days,97,798349,1060833
+70,MCA,4,Business Analytics; Excel,IBM Data Science,77,IT Services,Chennai,ML Engineer,MNC,Good,Other,Yes,Immediate,98,1204049,1382932
+71,BCA,5,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,62,BFSI,Hyderabad,Business Analyst,Startup,Average,Male,No,15 Days,95,824802,984773
+72,B.Sc,1,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,78,IT Services,Chennai,Business Analyst,Startup,Average,Male,No,Immediate,70,1871897,2421931
+73,BCA,7,Cloud Computing; AWS; Azure,Six Sigma Green Belt,79,IT Services,Hyderabad,ML Engineer,Product-Based,Average,Male,Yes,15 Days,78,624044,808642
+74,B.Tech,0,Java; Spring Boot; SQL,Microsoft Azure Certification,78,E-commerce,Mumbai,Business Analyst,Product-Based,Average,Female,Yes,15 Days,67,1082078,1593243
+75,BCA,3,Java; Spring Boot; SQL,Six Sigma Green Belt,50,E-commerce,Pune,Business Analyst,Product-Based,Average,Female,Yes,60 Days,86,352736,441072
+76,MCA,5,Java; Spring Boot; SQL,None,88,Consulting,Bangalore,ML Engineer,Service-Based,Excellent,Female,No,Immediate,60,403888,576519
+77,BCA,6,Java; Spring Boot; SQL,AWS ML Certification,99,BFSI,Pune,Business Analyst,Product-Based,Average,Male,No,60 Days,95,996122,1283981
+78,B.Sc,5,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,60,BFSI,Chennai,Data Analyst,MNC,Good,Female,No,Immediate,69,1817406,2132283
+79,MBA,10,Java; Spring Boot; SQL,Microsoft Azure Certification,56,E-commerce,Delhi,Business Analyst,Service-Based,Good,Male,No,Immediate,57,1048168,1570706
+80,MCA,5,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,78,IT Services,Chennai,Data Scientist,Product-Based,Good,Male,Yes,30 Days,91,697861,994786
+81,MBA,0,Java; Spring Boot; SQL,Microsoft Azure Certification,52,BFSI,Mumbai,Business Analyst,Startup,Excellent,Male,No,30 Days,83,1255943,1830497
+82,M.Tech,2,Cloud Computing; AWS; Azure,IBM Data Science,51,AI/ML,Bangalore,Business Analyst,Startup,Excellent,Female,No,30 Days,97,1078154,1201190
+83,MCA,10,Cloud Computing; AWS; Azure,Six Sigma Green Belt,64,IT Services,Bangalore,Software Developer,Service-Based,Excellent,Other,No,15 Days,86,539965,709049
+84,B.Sc,0,Tableau; Power BI; Excel,None,87,Healthcare,Delhi,Software Developer,Product-Based,Excellent,Male,Yes,Immediate,54,329221,488905
+85,B.Tech,6,Java; Spring Boot; SQL,Microsoft Azure Certification,74,BFSI,Delhi,Business Analyst,Startup,Average,Other,No,Immediate,84,1789696,1982212
+86,M.Tech,2,Tableau; Power BI; Excel,Six Sigma Green Belt,89,Healthcare,Chennai,Business Analyst,Startup,Average,Male,Yes,30 Days,82,1240766,1469819
+87,M.Tech,8,Cloud Computing; AWS; Azure,Six Sigma Green Belt,98,BFSI,Delhi,ML Engineer,Product-Based,Average,Female,Yes,60 Days,100,1695043,2405608
+88,MCA,10,Python; SQL; Machine Learning,IBM Data Science,85,Healthcare,Hyderabad,Business Analyst,Product-Based,Average,Female,No,Immediate,55,1256559,1478640
+89,MCA,8,Python; SQL; Machine Learning,Microsoft Azure Certification,59,Healthcare,Bangalore,Business Analyst,Product-Based,Average,Other,Yes,15 Days,50,1997164,2305955
+90,M.Tech,10,Python; SQL; Machine Learning,AWS ML Certification,63,BFSI,Bangalore,Data Analyst,MNC,Good,Male,No,30 Days,68,1032241,1489366
+91,B.Sc,7,Business Analytics; Excel,Six Sigma Green Belt,61,E-commerce,Delhi,Software Developer,Product-Based,Good,Other,No,60 Days,80,1397274,1975207
+92,M.Tech,7,Business Analytics; Excel,Six Sigma Green Belt,80,E-commerce,Bangalore,Data Scientist,Service-Based,Good,Female,Yes,Immediate,78,1489478,2067039
+93,M.Tech,9,Business Analytics; Excel,AWS ML Certification,99,Consulting,Delhi,Data Analyst,Product-Based,Good,Other,No,Immediate,77,782815,1139271
+94,B.Sc,3,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,53,BFSI,Delhi,Data Scientist,Service-Based,Excellent,Other,Yes,Immediate,90,1052891,1438519
+95,B.Sc,7,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,54,AI/ML,Chennai,Data Analyst,MNC,Average,Other,Yes,15 Days,56,1159245,1703755
+96,B.Tech,3,Deep Learning; NLP; Computer Vision,IBM Data Science,73,IT Services,Hyderabad,Data Analyst,MNC,Excellent,Other,No,Immediate,70,1685933,2377865
+97,MBA,3,Python; SQL; Machine Learning,AWS ML Certification,68,AI/ML,Hyderabad,ML Engineer,MNC,Excellent,Male,No,30 Days,100,1239445,1710039
+98,B.Sc,4,Deep Learning; NLP; Computer Vision,Oracle Java Certification,66,AI/ML,Chennai,ML Engineer,Product-Based,Excellent,Female,Yes,15 Days,91,405676,603459
+99,B.Tech,5,Cloud Computing; AWS; Azure,Microsoft Azure Certification,50,AI/ML,Pune,Business Analyst,Service-Based,Average,Male,No,60 Days,68,1061356,1175244
+100,MCA,5,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,95,BFSI,Hyderabad,Software Developer,MNC,Excellent,Male,Yes,Immediate,83,811075,1105744
+101,B.Sc,7,Java; Spring Boot; SQL,Oracle Java Certification,96,E-commerce,Bangalore,Data Analyst,Startup,Good,Male,Yes,15 Days,98,704910,837390
+102,B.Tech,1,Tableau; Power BI; Excel,None,63,E-commerce,Pune,Business Analyst,Service-Based,Average,Other,Yes,30 Days,77,787929,1102779
+103,BCA,10,Cloud Computing; AWS; Azure,Microsoft Azure Certification,65,E-commerce,Chennai,Business Analyst,MNC,Good,Other,Yes,60 Days,59,1725277,1980581
+104,BCA,3,Cloud Computing; AWS; Azure,None,69,Healthcare,Chennai,ML Engineer,Startup,Good,Male,No,15 Days,54,815341,1103000
+105,B.Tech,6,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,78,IT Services,Delhi,Data Analyst,Service-Based,Good,Other,Yes,30 Days,72,793934,902081
+106,M.Tech,3,Cloud Computing; AWS; Azure,Oracle Java Certification,84,IT Services,Bangalore,Data Scientist,Startup,Good,Male,Yes,15 Days,75,1084212,1422115
+107,B.Sc,4,Java; Spring Boot; SQL,AWS ML Certification,97,IT Services,Mumbai,Software Developer,Startup,Average,Other,Yes,60 Days,60,1774614,2215411
+108,M.Tech,5,Java; Spring Boot; SQL,Microsoft Azure Certification,58,AI/ML,Delhi,Data Analyst,Product-Based,Excellent,Female,No,Immediate,64,1419245,1574063
+109,B.Sc,10,Tableau; Power BI; Excel,AWS ML Certification,65,Consulting,Bangalore,Data Analyst,Service-Based,Average,Female,Yes,15 Days,82,1221630,1658645
+110,MBA,0,Deep Learning; NLP; Computer Vision,Oracle Java Certification,68,IT Services,Hyderabad,Data Scientist,Service-Based,Average,Female,No,60 Days,56,1476771,2195654
+111,M.Tech,2,Java; Spring Boot; SQL,Microsoft Azure Certification,72,BFSI,Hyderabad,ML Engineer,Startup,Good,Female,Yes,30 Days,58,725966,1024912
+112,BCA,3,Cloud Computing; AWS; Azure,Oracle Java Certification,54,E-commerce,Chennai,Data Scientist,MNC,Excellent,Male,Yes,60 Days,87,1270223,1691565
+113,MCA,3,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,93,BFSI,Delhi,Data Analyst,Service-Based,Excellent,Female,Yes,60 Days,51,1837262,2275369
+114,B.Tech,8,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,54,BFSI,Delhi,Business Analyst,MNC,Good,Male,Yes,Immediate,97,987334,1092297
+115,M.Tech,1,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,65,IT Services,Pune,Business Analyst,Service-Based,Good,Female,Yes,15 Days,79,1725149,2226063
+116,MCA,0,Cloud Computing; AWS; Azure,Oracle Java Certification,82,E-commerce,Pune,Business Analyst,MNC,Good,Male,Yes,Immediate,50,460390,659132
+117,MBA,7,Cloud Computing; AWS; Azure,Microsoft Azure Certification,92,BFSI,Pune,Business Analyst,MNC,Average,Other,No,30 Days,70,1283261,1776815
+118,BCA,5,Business Analytics; Excel,IBM Data Science,79,Consulting,Mumbai,Data Scientist,Startup,Good,Other,No,30 Days,63,676982,913415
+119,MBA,8,Deep Learning; NLP; Computer Vision,Oracle Java Certification,81,IT Services,Chennai,Data Scientist,MNC,Excellent,Female,Yes,Immediate,67,1236288,1481614
+120,MBA,9,Deep Learning; NLP; Computer Vision,IBM Data Science,71,AI/ML,Bangalore,Data Analyst,Startup,Good,Male,Yes,15 Days,62,1725287,2496706
+121,B.Tech,2,Business Analytics; Excel,AWS ML Certification,97,E-commerce,Bangalore,Business Analyst,MNC,Good,Female,No,30 Days,87,1691833,2018930
+122,M.Tech,6,Cloud Computing; AWS; Azure,Oracle Java Certification,66,E-commerce,Pune,ML Engineer,Service-Based,Good,Female,Yes,60 Days,77,642621,782175
+123,MCA,6,Tableau; Power BI; Excel,Microsoft Azure Certification,71,Consulting,Bangalore,ML Engineer,MNC,Good,Female,Yes,15 Days,57,694434,800785
+124,B.Sc,3,Java; Spring Boot; SQL,Oracle Java Certification,100,AI/ML,Mumbai,Business Analyst,Startup,Good,Male,Yes,Immediate,84,1298639,1622269
+125,MBA,10,Deep Learning; NLP; Computer Vision,AWS ML Certification,65,BFSI,Pune,Software Developer,Product-Based,Good,Other,No,Immediate,66,725221,983214
+126,M.Tech,8,Deep Learning; NLP; Computer Vision,AWS ML Certification,75,Consulting,Mumbai,ML Engineer,Startup,Excellent,Female,No,Immediate,66,398836,550990
+127,B.Sc,0,Tableau; Power BI; Excel,AWS ML Certification,81,E-commerce,Pune,Business Analyst,Startup,Excellent,Other,No,60 Days,99,1521207,2259588
+128,B.Sc,5,Java; Spring Boot; SQL,AWS ML Certification,68,AI/ML,Hyderabad,Data Scientist,Startup,Average,Other,No,Immediate,65,729928,956615
+129,B.Sc,1,Business Analytics; Excel,None,73,E-commerce,Chennai,Business Analyst,Service-Based,Good,Female,No,Immediate,59,1932413,2500013
+130,B.Tech,10,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,89,Healthcare,Mumbai,Data Scientist,Product-Based,Excellent,Other,No,Immediate,75,1956501,2877957
+131,B.Tech,6,Cloud Computing; AWS; Azure,None,85,BFSI,Mumbai,Software Developer,Service-Based,Good,Male,Yes,Immediate,97,983333,1201561
+132,BCA,10,Python; SQL; Machine Learning,Oracle Java Certification,61,BFSI,Pune,ML Engineer,Startup,Average,Other,Yes,60 Days,53,1769768,2652719
+133,M.Tech,4,Python; SQL; Machine Learning,IBM Data Science,73,AI/ML,Delhi,Business Analyst,Service-Based,Excellent,Female,Yes,15 Days,92,570903,823833
+134,MBA,2,Java; Spring Boot; SQL,Microsoft Azure Certification,85,AI/ML,Mumbai,ML Engineer,Product-Based,Excellent,Female,Yes,15 Days,97,1244201,1851134
+135,MBA,8,Java; Spring Boot; SQL,Oracle Java Certification,63,AI/ML,Chennai,Business Analyst,Startup,Excellent,Female,No,Immediate,51,1222307,1573701
+136,B.Tech,6,Tableau; Power BI; Excel,Six Sigma Green Belt,50,AI/ML,Delhi,Software Developer,Startup,Average,Female,No,15 Days,54,1674998,2149757
+137,BCA,7,Tableau; Power BI; Excel,AWS ML Certification,65,BFSI,Chennai,Data Scientist,Startup,Excellent,Other,Yes,Immediate,51,1182758,1528223
+138,MCA,1,Cloud Computing; AWS; Azure,Oracle Java Certification,50,BFSI,Pune,Data Analyst,Product-Based,Average,Other,No,30 Days,86,368953,435150
+139,BCA,0,Python; SQL; Machine Learning,Six Sigma Green Belt,89,BFSI,Chennai,Data Scientist,Startup,Excellent,Female,No,30 Days,87,1706357,2132298
+140,B.Tech,0,Business Analytics; Excel,AWS ML Certification,64,BFSI,Delhi,Data Analyst,Startup,Excellent,Other,Yes,Immediate,68,1969881,2365264
+141,B.Sc,5,Java; Spring Boot; SQL,IBM Data Science,69,E-commerce,Hyderabad,Software Developer,Service-Based,Excellent,Female,Yes,Immediate,66,1686064,2006310
+142,MCA,10,Deep Learning; NLP; Computer Vision,Oracle Java Certification,72,BFSI,Hyderabad,Data Analyst,MNC,Excellent,Other,No,30 Days,81,1462076,1941527
+143,B.Tech,1,Python; SQL; Machine Learning,None,50,IT Services,Pune,Business Analyst,MNC,Average,Male,No,60 Days,80,1440463,1615159
+144,BCA,9,Cloud Computing; AWS; Azure,None,69,AI/ML,Delhi,Data Scientist,Service-Based,Good,Other,No,15 Days,97,1018554,1213973
+145,BCA,1,Java; Spring Boot; SQL,IBM Data Science,77,Consulting,Chennai,Data Scientist,Product-Based,Excellent,Male,No,60 Days,68,1472309,2153117
+146,BCA,1,Java; Spring Boot; SQL,AWS ML Certification,91,Healthcare,Chennai,ML Engineer,Service-Based,Excellent,Other,Yes,60 Days,68,975972,1107005
+147,BCA,10,Tableau; Power BI; Excel,AWS ML Certification,78,Healthcare,Chennai,Data Scientist,Startup,Excellent,Other,No,15 Days,96,717717,811351
+148,B.Tech,6,Business Analytics; Excel,Six Sigma Green Belt,97,E-commerce,Mumbai,Data Scientist,Startup,Good,Other,Yes,30 Days,97,325743,397898
+149,MCA,10,Cloud Computing; AWS; Azure,IBM Data Science,53,Healthcare,Pune,Data Scientist,Product-Based,Average,Other,No,15 Days,78,1257415,1640193
+150,B.Tech,7,Java; Spring Boot; SQL,Six Sigma Green Belt,67,Healthcare,Mumbai,Business Analyst,Service-Based,Excellent,Other,Yes,60 Days,70,1515530,1900064
+151,M.Tech,5,Java; Spring Boot; SQL,Oracle Java Certification,58,E-commerce,Hyderabad,Data Analyst,MNC,Average,Female,No,30 Days,83,1357544,1646510
+152,M.Tech,6,Business Analytics; Excel,None,55,BFSI,Bangalore,Data Analyst,Service-Based,Good,Female,Yes,Immediate,55,1116077,1311917
+153,M.Tech,7,Deep Learning; NLP; Computer Vision,Oracle Java Certification,93,Healthcare,Delhi,Data Analyst,MNC,Average,Male,No,15 Days,63,994489,1314819
+154,M.Tech,2,Deep Learning; NLP; Computer Vision,None,80,E-commerce,Mumbai,Data Analyst,Product-Based,Average,Other,No,15 Days,98,1021306,1362025
+155,M.Tech,0,Tableau; Power BI; Excel,Microsoft Azure Certification,96,AI/ML,Chennai,Software Developer,Product-Based,Good,Male,No,30 Days,51,1802315,2001254
+156,B.Sc,5,Tableau; Power BI; Excel,None,52,IT Services,Hyderabad,ML Engineer,Startup,Excellent,Female,No,15 Days,60,773634,952329
+157,B.Tech,10,Deep Learning; NLP; Computer Vision,IBM Data Science,100,Healthcare,Hyderabad,Data Scientist,Product-Based,Good,Female,Yes,60 Days,89,315727,389787
+158,B.Tech,2,Cloud Computing; AWS; Azure,Six Sigma Green Belt,88,AI/ML,Hyderabad,Data Scientist,MNC,Average,Other,No,30 Days,71,762919,1121545
+159,B.Tech,8,Java; Spring Boot; SQL,IBM Data Science,72,Consulting,Mumbai,Business Analyst,Startup,Good,Female,Yes,30 Days,77,1440812,2110927
+160,M.Tech,0,Java; Spring Boot; SQL,Oracle Java Certification,87,Consulting,Chennai,ML Engineer,Service-Based,Excellent,Female,No,Immediate,83,1531876,1726053
+161,MBA,9,Business Analytics; Excel,Oracle Java Certification,53,AI/ML,Delhi,Data Scientist,Startup,Excellent,Female,Yes,15 Days,68,1410433,1763507
+162,B.Sc,0,Java; Spring Boot; SQL,Oracle Java Certification,95,BFSI,Mumbai,Data Scientist,Product-Based,Average,Female,Yes,Immediate,65,1105559,1362547
+163,M.Tech,0,Python; SQL; Machine Learning,IBM Data Science,81,Consulting,Pune,Data Scientist,Product-Based,Excellent,Female,Yes,15 Days,83,582176,865375
+164,BCA,0,Python; SQL; Machine Learning,Microsoft Azure Certification,62,AI/ML,Bangalore,Data Scientist,Service-Based,Good,Female,Yes,Immediate,55,1492977,1799252
+165,B.Sc,6,Tableau; Power BI; Excel,IBM Data Science,62,IT Services,Hyderabad,Software Developer,MNC,Average,Other,No,30 Days,71,800094,1033458
+166,MCA,0,Tableau; Power BI; Excel,AWS ML Certification,60,IT Services,Mumbai,Business Analyst,MNC,Good,Male,Yes,15 Days,54,1007242,1114557
+167,MCA,8,Python; SQL; Machine Learning,AWS ML Certification,62,Consulting,Chennai,Software Developer,MNC,Good,Other,Yes,Immediate,71,1486287,2182211
+168,M.Tech,6,Cloud Computing; AWS; Azure,Microsoft Azure Certification,71,IT Services,Pune,Software Developer,Service-Based,Excellent,Male,Yes,30 Days,52,680863,996675
+169,MCA,10,Java; Spring Boot; SQL,Microsoft Azure Certification,73,E-commerce,Bangalore,Software Developer,MNC,Excellent,Female,Yes,15 Days,60,1903217,2812866
+170,B.Sc,0,Python; SQL; Machine Learning,None,56,Healthcare,Chennai,Data Analyst,Startup,Average,Other,Yes,15 Days,62,1898330,2583407
+171,B.Sc,0,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,90,Consulting,Hyderabad,Business Analyst,Product-Based,Average,Other,No,15 Days,67,946902,1280098
+172,B.Tech,1,Business Analytics; Excel,Six Sigma Green Belt,52,BFSI,Delhi,Software Developer,Product-Based,Good,Male,Yes,30 Days,94,783600,889155
+173,B.Tech,1,Cloud Computing; AWS; Azure,AWS ML Certification,96,AI/ML,Hyderabad,Software Developer,Product-Based,Average,Male,No,30 Days,87,676540,956517
+174,MCA,8,Python; SQL; Machine Learning,Oracle Java Certification,72,IT Services,Bangalore,Data Scientist,MNC,Average,Female,No,15 Days,67,940371,1071627
+175,BCA,5,Python; SQL; Machine Learning,None,51,AI/ML,Delhi,Data Scientist,Startup,Good,Male,No,60 Days,52,447178,604168
+176,BCA,9,Business Analytics; Excel,Microsoft Azure Certification,54,BFSI,Delhi,Business Analyst,Startup,Excellent,Other,Yes,60 Days,71,1438773,1585526
+177,B.Sc,4,Cloud Computing; AWS; Azure,Six Sigma Green Belt,88,Healthcare,Delhi,Data Analyst,MNC,Good,Female,Yes,Immediate,89,1361804,1575712
+178,MBA,3,Deep Learning; NLP; Computer Vision,AWS ML Certification,51,IT Services,Mumbai,ML Engineer,Service-Based,Good,Female,No,30 Days,72,881725,1136478
+179,M.Tech,8,Python; SQL; Machine Learning,None,89,IT Services,Delhi,Data Scientist,MNC,Excellent,Female,No,60 Days,86,1430696,1808479
+180,B.Tech,7,Python; SQL; Machine Learning,Oracle Java Certification,82,AI/ML,Mumbai,Data Analyst,Startup,Average,Female,No,Immediate,50,1181761,1567561
+181,B.Tech,0,Cloud Computing; AWS; Azure,Six Sigma Green Belt,50,BFSI,Chennai,ML Engineer,Product-Based,Average,Male,Yes,15 Days,94,1036749,1322881
+182,MCA,8,Tableau; Power BI; Excel,Oracle Java Certification,69,IT Services,Mumbai,ML Engineer,Startup,Excellent,Other,Yes,60 Days,54,788715,907138
+183,MCA,3,Java; Spring Boot; SQL,AWS ML Certification,65,BFSI,Mumbai,Data Analyst,Startup,Excellent,Other,Yes,15 Days,93,1771810,2528578
+184,MBA,10,Deep Learning; NLP; Computer Vision,IBM Data Science,68,Consulting,Chennai,Data Analyst,Startup,Average,Female,No,60 Days,98,1211456,1333970
+185,BCA,1,Tableau; Power BI; Excel,IBM Data Science,97,IT Services,Chennai,Software Developer,Service-Based,Excellent,Other,No,60 Days,94,762471,1120235
+186,MBA,7,Business Analytics; Excel,Oracle Java Certification,63,AI/ML,Pune,Business Analyst,Product-Based,Average,Female,Yes,60 Days,99,1283813,1703333
+187,B.Tech,0,Python; SQL; Machine Learning,Six Sigma Green Belt,74,Healthcare,Hyderabad,Business Analyst,Startup,Average,Male,Yes,15 Days,63,369931,449578
+188,M.Tech,2,Tableau; Power BI; Excel,Oracle Java Certification,75,BFSI,Pune,ML Engineer,Startup,Average,Other,Yes,60 Days,52,543620,692515
+189,MBA,10,Python; SQL; Machine Learning,Microsoft Azure Certification,86,Healthcare,Delhi,Business Analyst,MNC,Excellent,Female,Yes,60 Days,64,1158436,1632613
+190,B.Sc,9,Tableau; Power BI; Excel,None,85,Consulting,Mumbai,Data Analyst,Service-Based,Average,Other,No,60 Days,78,1092652,1507555
+191,B.Sc,9,Tableau; Power BI; Excel,None,51,E-commerce,Hyderabad,Data Scientist,MNC,Excellent,Male,Yes,60 Days,70,1982459,2193166
+192,MCA,6,Java; Spring Boot; SQL,Microsoft Azure Certification,94,E-commerce,Chennai,Data Scientist,MNC,Good,Female,No,Immediate,75,612091,886840
+193,M.Tech,9,Java; Spring Boot; SQL,None,55,IT Services,Mumbai,Software Developer,Service-Based,Average,Other,No,60 Days,97,1668758,2450698
+194,MCA,5,Python; SQL; Machine Learning,IBM Data Science,81,BFSI,Chennai,Software Developer,Startup,Good,Female,No,15 Days,68,1858795,2121010
+195,M.Tech,2,Business Analytics; Excel,Microsoft Azure Certification,61,AI/ML,Mumbai,Data Analyst,Product-Based,Average,Male,No,60 Days,60,754822,840037
+196,B.Tech,2,Java; Spring Boot; SQL,Six Sigma Green Belt,95,AI/ML,Hyderabad,Software Developer,Startup,Good,Male,No,30 Days,50,1665987,2275366
+197,MCA,10,Python; SQL; Machine Learning,AWS ML Certification,99,AI/ML,Hyderabad,Business Analyst,Service-Based,Average,Male,Yes,60 Days,86,1004933,1196481
+198,MCA,8,Java; Spring Boot; SQL,Oracle Java Certification,89,AI/ML,Hyderabad,Data Analyst,Startup,Excellent,Other,No,Immediate,96,1283627,1455168
+199,M.Tech,6,Java; Spring Boot; SQL,Six Sigma Green Belt,68,AI/ML,Pune,Software Developer,Service-Based,Excellent,Other,Yes,30 Days,89,1176997,1555979
+200,B.Sc,4,Java; Spring Boot; SQL,Oracle Java Certification,62,Healthcare,Bangalore,Data Analyst,MNC,Excellent,Male,Yes,15 Days,57,353918,410068
+201,B.Tech,8,Python; SQL; Machine Learning,AWS ML Certification,86,IT Services,Delhi,Data Analyst,Product-Based,Good,Male,No,15 Days,75,629581,733427
+202,B.Sc,0,Deep Learning; NLP; Computer Vision,None,67,BFSI,Hyderabad,Software Developer,Startup,Good,Female,No,Immediate,76,1330423,1470830
+203,B.Sc,10,Java; Spring Boot; SQL,None,78,Consulting,Hyderabad,ML Engineer,MNC,Good,Other,Yes,Immediate,90,1599989,2160459
+204,B.Sc,9,Java; Spring Boot; SQL,AWS ML Certification,79,IT Services,Bangalore,Data Scientist,MNC,Good,Female,Yes,60 Days,73,809173,984403
+205,MBA,10,Java; Spring Boot; SQL,AWS ML Certification,88,Healthcare,Hyderabad,ML Engineer,MNC,Excellent,Other,Yes,15 Days,68,1124400,1388949
+206,MCA,2,Cloud Computing; AWS; Azure,None,55,IT Services,Bangalore,ML Engineer,MNC,Excellent,Male,No,15 Days,69,984631,1265007
+207,MBA,10,Java; Spring Boot; SQL,Oracle Java Certification,98,E-commerce,Delhi,Software Developer,Product-Based,Excellent,Other,Yes,60 Days,89,1844938,2220481
+208,MBA,9,Python; SQL; Machine Learning,Six Sigma Green Belt,78,Healthcare,Bangalore,Business Analyst,Service-Based,Good,Other,No,60 Days,89,1059129,1443602
+209,B.Tech,5,Tableau; Power BI; Excel,Microsoft Azure Certification,60,BFSI,Hyderabad,Business Analyst,MNC,Excellent,Other,Yes,Immediate,92,932053,1101851
+210,MCA,8,Deep Learning; NLP; Computer Vision,AWS ML Certification,61,AI/ML,Chennai,Software Developer,Service-Based,Good,Male,Yes,30 Days,94,865963,1211210
+211,BCA,1,Java; Spring Boot; SQL,Six Sigma Green Belt,65,BFSI,Chennai,Business Analyst,Startup,Good,Male,No,Immediate,88,1373009,1515215
+212,BCA,4,Java; Spring Boot; SQL,AWS ML Certification,70,Consulting,Mumbai,Business Analyst,MNC,Good,Male,No,Immediate,53,1531585,1989668
+213,B.Tech,4,Java; Spring Boot; SQL,AWS ML Certification,59,Consulting,Pune,Data Scientist,Service-Based,Excellent,Female,No,15 Days,58,1791081,2412632
+214,BCA,6,Business Analytics; Excel,Six Sigma Green Belt,54,Healthcare,Mumbai,Data Analyst,Service-Based,Average,Other,No,Immediate,98,1810826,2440929
+215,BCA,8,Business Analytics; Excel,Oracle Java Certification,75,AI/ML,Chennai,Business Analyst,Startup,Average,Male,Yes,30 Days,69,558406,681692
+216,MBA,10,Python; SQL; Machine Learning,Six Sigma Green Belt,88,BFSI,Delhi,ML Engineer,Service-Based,Good,Female,Yes,Immediate,90,355892,431801
+217,BCA,9,Java; Spring Boot; SQL,None,97,BFSI,Bangalore,ML Engineer,Service-Based,Good,Male,Yes,30 Days,56,1634650,1858183
+218,MBA,4,Java; Spring Boot; SQL,IBM Data Science,100,BFSI,Delhi,Data Scientist,Product-Based,Excellent,Male,Yes,30 Days,63,1308616,1946045
+219,B.Tech,7,Cloud Computing; AWS; Azure,Oracle Java Certification,76,Healthcare,Bangalore,Data Analyst,Service-Based,Good,Other,No,30 Days,98,526430,637315
+220,BCA,9,Java; Spring Boot; SQL,Six Sigma Green Belt,52,BFSI,Pune,Business Analyst,Service-Based,Excellent,Other,No,60 Days,51,1070273,1515058
+221,MCA,6,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,87,Consulting,Bangalore,Software Developer,MNC,Excellent,Female,No,15 Days,57,1637667,2289099
+222,M.Tech,7,Business Analytics; Excel,Six Sigma Green Belt,74,BFSI,Bangalore,ML Engineer,Service-Based,Good,Male,No,60 Days,88,1590176,1810240
+223,B.Tech,0,Java; Spring Boot; SQL,Microsoft Azure Certification,53,IT Services,Bangalore,Business Analyst,MNC,Excellent,Other,No,60 Days,52,780295,1153292
+224,B.Tech,4,Business Analytics; Excel,Microsoft Azure Certification,66,IT Services,Pune,Data Analyst,Service-Based,Excellent,Other,No,60 Days,97,1342034,1735447
+225,B.Tech,1,Java; Spring Boot; SQL,AWS ML Certification,100,IT Services,Pune,Business Analyst,Startup,Excellent,Female,No,30 Days,96,976647,1223363
+226,B.Tech,10,Deep Learning; NLP; Computer Vision,None,76,BFSI,Bangalore,Business Analyst,Service-Based,Good,Female,No,60 Days,99,1568166,1899502
+227,BCA,7,Python; SQL; Machine Learning,Oracle Java Certification,88,IT Services,Chennai,ML Engineer,Service-Based,Excellent,Male,No,Immediate,98,554343,749923
+228,B.Tech,2,Cloud Computing; AWS; Azure,Six Sigma Green Belt,52,AI/ML,Mumbai,Data Analyst,Startup,Good,Male,No,Immediate,99,1538258,2220530
+229,M.Tech,7,Java; Spring Boot; SQL,Microsoft Azure Certification,53,Healthcare,Pune,Data Analyst,Startup,Good,Other,Yes,15 Days,78,740085,897369
+230,M.Tech,7,Tableau; Power BI; Excel,Six Sigma Green Belt,54,AI/ML,Hyderabad,Business Analyst,MNC,Average,Male,Yes,Immediate,99,370081,435856
+231,MCA,3,Business Analytics; Excel,Microsoft Azure Certification,93,BFSI,Mumbai,Data Scientist,MNC,Good,Female,Yes,60 Days,66,1344588,1721904
+232,B.Sc,2,Cloud Computing; AWS; Azure,Six Sigma Green Belt,81,IT Services,Pune,Software Developer,Startup,Good,Male,Yes,30 Days,95,631159,783060
+233,BCA,8,Cloud Computing; AWS; Azure,None,87,IT Services,Delhi,Software Developer,Service-Based,Good,Male,No,30 Days,86,1764871,2402689
+234,B.Sc,8,Cloud Computing; AWS; Azure,AWS ML Certification,60,BFSI,Hyderabad,Data Scientist,Product-Based,Excellent,Other,Yes,15 Days,65,1998416,2512716
+235,M.Tech,10,Python; SQL; Machine Learning,Oracle Java Certification,100,E-commerce,Bangalore,Business Analyst,Startup,Good,Female,No,60 Days,98,1134341,1271861
+236,B.Tech,2,Java; Spring Boot; SQL,Microsoft Azure Certification,89,E-commerce,Chennai,Software Developer,Product-Based,Good,Female,No,15 Days,100,730096,1049621
+237,B.Sc,4,Java; Spring Boot; SQL,Oracle Java Certification,80,BFSI,Hyderabad,Data Scientist,MNC,Good,Female,No,30 Days,80,353443,417184
+238,MCA,2,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,65,Consulting,Hyderabad,Business Analyst,MNC,Excellent,Female,Yes,60 Days,100,788298,886341
+239,B.Tech,8,Tableau; Power BI; Excel,Oracle Java Certification,89,IT Services,Chennai,Data Analyst,MNC,Excellent,Female,Yes,15 Days,72,1718216,2486303
+240,MCA,7,Tableau; Power BI; Excel,Six Sigma Green Belt,91,Consulting,Chennai,Business Analyst,Service-Based,Good,Other,No,15 Days,85,842348,1137227
+241,B.Sc,3,Java; Spring Boot; SQL,Oracle Java Certification,60,AI/ML,Chennai,Business Analyst,Service-Based,Excellent,Male,No,Immediate,61,1548443,1767012
+242,B.Sc,8,Java; Spring Boot; SQL,Microsoft Azure Certification,89,IT Services,Mumbai,ML Engineer,Startup,Average,Male,Yes,30 Days,55,1282257,1766992
+243,BCA,2,Deep Learning; NLP; Computer Vision,AWS ML Certification,52,AI/ML,Hyderabad,Data Analyst,Service-Based,Average,Other,Yes,15 Days,63,1556306,2006836
+244,MCA,7,Deep Learning; NLP; Computer Vision,None,86,Healthcare,Chennai,ML Engineer,Product-Based,Average,Male,Yes,15 Days,55,731226,1061864
+245,M.Tech,0,Business Analytics; Excel,None,78,IT Services,Bangalore,Software Developer,Startup,Good,Female,Yes,15 Days,99,1356615,1896119
+246,MBA,8,Python; SQL; Machine Learning,Oracle Java Certification,74,IT Services,Pune,Data Analyst,Startup,Excellent,Male,No,30 Days,69,1879948,2335223
+247,B.Tech,0,Python; SQL; Machine Learning,Oracle Java Certification,50,AI/ML,Pune,ML Engineer,Service-Based,Good,Male,Yes,Immediate,51,1624417,2275060
+248,MBA,3,Tableau; Power BI; Excel,AWS ML Certification,60,BFSI,Chennai,Data Scientist,Startup,Excellent,Female,No,30 Days,83,1235752,1589932
+249,B.Sc,8,Java; Spring Boot; SQL,Microsoft Azure Certification,99,Consulting,Delhi,Data Scientist,Startup,Good,Male,No,Immediate,56,1697135,2063777
+250,B.Sc,0,Tableau; Power BI; Excel,AWS ML Certification,60,Consulting,Delhi,Business Analyst,Product-Based,Excellent,Male,Yes,15 Days,97,1298559,1619920
+251,B.Tech,4,Deep Learning; NLP; Computer Vision,None,94,AI/ML,Bangalore,Software Developer,MNC,Excellent,Female,No,15 Days,72,308245,431683
+252,BCA,2,Tableau; Power BI; Excel,IBM Data Science,76,Consulting,Delhi,Data Analyst,Service-Based,Average,Male,No,60 Days,87,528611,714249
+253,MBA,5,Python; SQL; Machine Learning,Microsoft Azure Certification,87,Healthcare,Hyderabad,ML Engineer,Startup,Good,Female,Yes,60 Days,69,628844,846672
+254,BCA,3,Tableau; Power BI; Excel,None,58,AI/ML,Delhi,Software Developer,MNC,Excellent,Other,No,Immediate,93,627977,923714
+255,B.Sc,5,Java; Spring Boot; SQL,IBM Data Science,51,BFSI,Chennai,Data Analyst,Startup,Excellent,Other,Yes,15 Days,92,1679524,1915853
+256,MCA,0,Deep Learning; NLP; Computer Vision,Microsoft Azure Certification,91,BFSI,Pune,Data Scientist,Startup,Average,Female,No,15 Days,75,1579169,2226587
+257,B.Sc,3,Business Analytics; Excel,Oracle Java Certification,89,E-commerce,Delhi,ML Engineer,Product-Based,Good,Other,Yes,60 Days,69,559301,781971
+258,M.Tech,8,Java; Spring Boot; SQL,IBM Data Science,50,AI/ML,Delhi,Business Analyst,MNC,Average,Male,Yes,15 Days,66,1143693,1606780
+259,B.Sc,10,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,57,AI/ML,Delhi,Data Scientist,Product-Based,Excellent,Male,No,30 Days,97,1200918,1406183
+260,BCA,0,Java; Spring Boot; SQL,None,96,AI/ML,Pune,Software Developer,Service-Based,Excellent,Female,No,60 Days,60,1145810,1646001
+261,BCA,8,Cloud Computing; AWS; Azure,Six Sigma Green Belt,57,Healthcare,Mumbai,Business Analyst,Product-Based,Excellent,Other,No,30 Days,52,1710391,2040652
+262,M.Tech,3,Deep Learning; NLP; Computer Vision,None,99,IT Services,Delhi,Software Developer,MNC,Excellent,Female,No,60 Days,55,1426874,1591988
+263,MBA,1,Deep Learning; NLP; Computer Vision,AWS ML Certification,79,IT Services,Chennai,Data Scientist,Startup,Good,Male,Yes,60 Days,88,954174,1156072
+264,B.Sc,0,Tableau; Power BI; Excel,None,95,BFSI,Bangalore,ML Engineer,MNC,Average,Other,No,30 Days,55,576618,687158
+265,BCA,1,Java; Spring Boot; SQL,AWS ML Certification,96,BFSI,Hyderabad,Software Developer,Startup,Excellent,Other,Yes,15 Days,60,1188491,1334428
+266,B.Tech,5,Java; Spring Boot; SQL,Oracle Java Certification,66,IT Services,Pune,Data Analyst,Service-Based,Good,Female,Yes,30 Days,61,1498393,1891908
+267,M.Tech,3,Deep Learning; NLP; Computer Vision,Oracle Java Certification,98,IT Services,Mumbai,Business Analyst,MNC,Excellent,Other,Yes,15 Days,57,947660,1402893
+268,BCA,4,Cloud Computing; AWS; Azure,Microsoft Azure Certification,62,Consulting,Mumbai,Data Scientist,MNC,Good,Female,No,Immediate,64,487229,634587
+269,B.Tech,10,Deep Learning; NLP; Computer Vision,AWS ML Certification,68,IT Services,Chennai,ML Engineer,MNC,Good,Other,No,30 Days,60,1641850,2427041
+270,BCA,1,Java; Spring Boot; SQL,AWS ML Certification,79,Consulting,Mumbai,ML Engineer,Service-Based,Excellent,Female,No,Immediate,53,1894503,2385604
+271,MBA,5,Business Analytics; Excel,None,90,Healthcare,Delhi,ML Engineer,Product-Based,Average,Male,No,15 Days,65,1653039,2078756
+272,B.Sc,9,Tableau; Power BI; Excel,AWS ML Certification,96,AI/ML,Mumbai,Data Scientist,Product-Based,Average,Male,No,30 Days,71,1140537,1371878
+273,B.Sc,5,Python; SQL; Machine Learning,AWS ML Certification,59,IT Services,Delhi,Data Scientist,Startup,Average,Male,Yes,15 Days,63,1084852,1617729
+274,B.Sc,7,Deep Learning; NLP; Computer Vision,Six Sigma Green Belt,82,AI/ML,Pune,Data Scientist,Service-Based,Excellent,Female,Yes,15 Days,97,642932,931204
+275,M.Tech,3,Deep Learning; NLP; Computer Vision,None,52,Healthcare,Mumbai,Business Analyst,MNC,Average,Other,Yes,Immediate,71,1064657,1477473
+276,MBA,6,Business Analytics; Excel,IBM Data Science,82,BFSI,Delhi,Software Developer,Service-Based,Excellent,Other,No,15 Days,61,1331315,1748404
+277,BCA,6,Deep Learning; NLP; Computer Vision,None,50,IT Services,Delhi,Data Analyst,MNC,Excellent,Other,Yes,30 Days,93,1177609,1416117
+278,M.Tech,10,Java; Spring Boot; SQL,AWS ML Certification,70,BFSI,Hyderabad,Data Analyst,MNC,Average,Female,No,15 Days,75,1957711,2727686
+279,M.Tech,10,Cloud Computing; AWS; Azure,Microsoft Azure Certification,55,E-commerce,Hyderabad,Software Developer,MNC,Excellent,Other,No,30 Days,64,1911950,2559178
+280,B.Sc,0,Cloud Computing; AWS; Azure,IBM Data Science,59,Healthcare,Bangalore,Software Developer,Startup,Excellent,Male,Yes,60 Days,84,1434367,1788640
+281,B.Tech,8,Java; Spring Boot; SQL,AWS ML Certification,73,Healthcare,Mumbai,Software Developer,Product-Based,Excellent,Male,No,60 Days,54,1559556,1807983
+282,MBA,8,Python; SQL; Machine Learning,Oracle Java Certification,86,IT Services,Hyderabad,Software Developer,Startup,Excellent,Female,No,15 Days,87,338550,409292
+283,B.Tech,5,Cloud Computing; AWS; Azure,IBM Data Science,76,Consulting,Mumbai,ML Engineer,MNC,Average,Male,Yes,Immediate,50,914750,1080728
+284,MCA,8,Java; Spring Boot; SQL,None,93,IT Services,Mumbai,Business Analyst,Product-Based,Average,Male,No,15 Days,50,1693269,2447034
+285,B.Sc,7,Cloud Computing; AWS; Azure,AWS ML Certification,77,AI/ML,Mumbai,Software Developer,Product-Based,Average,Other,No,30 Days,58,800531,1177774
+286,MBA,7,Java; Spring Boot; SQL,Oracle Java Certification,95,BFSI,Delhi,Data Analyst,Startup,Excellent,Other,No,Immediate,62,1711304,2212611
+287,MCA,9,Cloud Computing; AWS; Azure,Oracle Java Certification,92,BFSI,Chennai,Data Scientist,Service-Based,Average,Male,No,60 Days,55,1541543,2300037
+288,B.Sc,3,Deep Learning; NLP; Computer Vision,AWS ML Certification,60,Consulting,Bangalore,Business Analyst,Service-Based,Average,Male,No,Immediate,75,1493847,1918095
+289,BCA,6,Deep Learning; NLP; Computer Vision,None,81,BFSI,Chennai,Software Developer,Product-Based,Excellent,Other,Yes,15 Days,52,727184,965788
+290,BCA,10,Java; Spring Boot; SQL,Six Sigma Green Belt,61,E-commerce,Bangalore,Data Analyst,MNC,Good,Male,Yes,30 Days,63,1604510,1768126
+291,BCA,10,Deep Learning; NLP; Computer Vision,IBM Data Science,53,E-commerce,Pune,Data Scientist,Startup,Excellent,Male,No,60 Days,52,866734,1163436
+292,M.Tech,7,Python; SQL; Machine Learning,AWS ML Certification,61,IT Services,Bangalore,Data Scientist,Product-Based,Good,Male,No,15 Days,97,1202879,1450145
+293,MCA,8,Python; SQL; Machine Learning,Six Sigma Green Belt,92,IT Services,Pune,Software Developer,MNC,Excellent,Other,Yes,30 Days,86,1885947,2372809
+294,B.Sc,7,Tableau; Power BI; Excel,Oracle Java Certification,99,BFSI,Chennai,Data Analyst,Product-Based,Average,Male,Yes,30 Days,69,334948,383429
+295,MBA,10,Business Analytics; Excel,AWS ML Certification,60,Consulting,Pune,ML Engineer,Product-Based,Good,Other,No,60 Days,100,1653089,2203682
+296,MBA,1,Cloud Computing; AWS; Azure,Microsoft Azure Certification,87,Healthcare,Pune,Business Analyst,Service-Based,Excellent,Other,No,Immediate,98,1075658,1248983
+297,B.Sc,9,Cloud Computing; AWS; Azure,Microsoft Azure Certification,98,AI/ML,Delhi,Data Scientist,MNC,Excellent,Female,No,60 Days,86,1357604,1898223
+298,MBA,6,Business Analytics; Excel,IBM Data Science,72,Consulting,Bangalore,Software Developer,Product-Based,Excellent,Male,No,15 Days,60,432619,600946
+299,MCA,6,Business Analytics; Excel,Microsoft Azure Certification,77,IT Services,Delhi,Data Analyst,Product-Based,Excellent,Female,Yes,30 Days,91,767461,1045755
+300,BCA,9,Python; SQL; Machine Learning,Microsoft Azure Certification,67,E-commerce,Delhi,Data Scientist,Startup,Excellent,Female,No,60 Days,80,373213,471863
