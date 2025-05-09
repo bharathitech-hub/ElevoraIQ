@@ -41,18 +41,20 @@ else:
     st.warning("Scaler file 'scaler.pkl' not found. Predictions might be less accurate.")
     scaler = None
 
+
 def preprocess_input(data, original_df, scaler):
     """
     Preprocesses the input data to match the training data format.
 
     Args:
         data (dict): Input data as a dictionary.
-        original_df (pd.DataFrame): The original training DataFrame for consistent encoding and mean imputation.
+        original_df (pd.DataFrame): The original training DataFrame.
         scaler (StandardScaler): The fitted StandardScaler.
 
     Returns:
         np.ndarray: Preprocessed and scaled numerical data for prediction.
     """
+
     if original_df is None:
         st.error("Original training data is required for preprocessing.")
         return None
@@ -60,49 +62,55 @@ def preprocess_input(data, original_df, scaler):
     input_df = pd.DataFrame([data])
 
     # --- Preprocessing steps (MUST MATCH the training notebook) ---
+    # Rename input columns to match training data (CRITICAL FIX)
+    input_df = input_df.rename(columns={
+        'aptitude': 'Aptitude_Score',
+        'current_compensation': 'Current_Salary',
+        'domain_knowledge': 'Domain_Knowledge',  # If it exists; otherwise handle KeyError
+        'education_level': 'Education_Level',
+        'experience': 'Years_of_Experience',
+        # ... add any other renames needed based on the error log ...
+    }, errors='ignore')  # 'ignore' prevents errors if a column isn't present
+
     for col in ['Gender', 'Work_Gap_Status']:
         le = LabelEncoder()
         if col in original_df.columns and col in input_df.columns:
-            # Fit on the combined unique values from original and input to handle unseen values
             combined_values = pd.concat([original_df[col].astype(str), input_df[col].astype(str)]).unique()
             le.fit(combined_values)
             input_df[col] = le.transform(input_df[col].astype(str))
         elif col in input_df.columns:
-            input_df[col] = input_df[col].astype(str).fillna('Unknown') # Handle missing in input
-            # If the column wasn't in the original, we can't reliably encode.
-            # Consider a default encoding or handling strategy.
-            input_df[col] = 0 # Default encoding if not in original
+            input_df[col] = input_df[col].astype(str).fillna('Unknown')
+            input_df[col] = 0  # Or a more suitable default
         else:
-            input_df[col] = 0 # If not provided in input
+            input_df[col] = 0
 
     input_df['Skills'] = input_df['Skills'].fillna('None')
-    skills_dummies = input_df['Skills'].str.get_dummies(sep=';')
-    input_df = pd.concat([input_df.drop('Skills', axis=1), skills_dummies], axis=1)
-    input_df['Skills_Count'] = input_df['Skills_Count'] = input_df['Skills'].apply(lambda x: len(x.split(';')) if x != 'None' else 0)
-
+    skills_dummies = input_df['Skills'].str.get_dummies(sep=';', prefix='Skills')  # Add prefix
+    input_df = pd.concat([input_df.drop('Skills', axis=1, errors='ignore'), skills_dummies], axis=1,  ignore_index=False)
+    input_df['Skills_Count'] = input_df['Skills'].apply(lambda x: len(x.split(';')) if x != 'None' else 0)
 
     input_df['Certifications'] = input_df['Certifications'].fillna('None')
-    certifications_dummies = input_df['Certifications'].str.get_dummies(sep=';')
-    input_df = pd.concat([input_df.drop('Certifications', axis=1), certifications_dummies], axis=1)
-    input_df['Certification_Count'] = input_df['Certification_Count'] = input_df['Certifications'].apply(lambda x: len(x.split(';')) if x != 'None' else 0)
+    certifications_dummies = input_df['Certifications'].str.get_dummies(sep=';', prefix='Certifications')  # Add Prefix
+    input_df = pd.concat([input_df.drop('Certifications', axis=1, errors='ignore'), certifications_dummies], axis=1,  ignore_index=False)
+    input_df['Certification_Count'] = input_df['Certifications'].apply(lambda x: len(x.split(';')) if x != 'None' else 0)
 
     categorical_cols = ['Education_Level', 'Industry', 'Location', 'Job_Role', 'Company_Type', 'Soft_Skills', 'Notice_Period']
     input_df = pd.get_dummies(input_df, columns=categorical_cols, dummy_na=False)
 
     input_df = input_df.drop(columns=['Candidate_ID'], errors='ignore')
 
-    # Fill missing columns with 0 (to match training data)
     if original_df is not None:
-        missing_cols = set(original_df.drop(columns=['Expected_Salary']).columns) - set(input_df.columns)
+        missing_cols = set(original_df.drop(columns=['Expected_Salary'], errors='ignore').columns) - set(input_df.columns)
         for c in missing_cols:
             input_df[c] = 0
-        input_df = input_df[original_df.drop(columns=['Expected_Salary']).columns] # Ensure correct order
-
-    # Fill remaining NaNs with the mean of the original training data
-    if original_df is not None:
-        input_df = input_df.fillna(original_df.drop(columns=['Expected_Salary']).mean())
+        input_df = input_df[original_df.drop(columns=['Expected_Salary'], errors='ignore').columns]  # Ensure correct order
     else:
-        input_df = input_df.fillna(0) # If original_df couldn't be loaded
+        input_df = input_df.fillna(0)
+
+    if original_df is not None:
+        input_df = input_df.fillna(original_df.drop(columns=['Expected_Salary'], errors='ignore').mean())
+    else:
+        input_df = input_df.fillna(0)
 
     if scaler is not None:
         try:
@@ -112,7 +120,8 @@ def preprocess_input(data, original_df, scaler):
             st.error(f"Error during scaling: {e}")
             return None
     else:
-        return input_df.values # Return unscaled if scaler is not available
+        return input_df.values
+
 
 def main():
     st.title("Salary Expectation Prediction")
@@ -122,37 +131,38 @@ def main():
         st.warning("The model or training data could not be loaded. Please check the file paths.")
         return
 
-    gender = st.selectbox("Gender", ["Male", "Female", "Other"])
-    work_gap_status = st.selectbox("Work Gap Status", ["Yes", "No"])
-    education_level = st.selectbox("Education Level", original_df['Education_Level'].unique() if original_df is not None else ["MCA", "B.Tech"])
-    industry = st.selectbox("Industry", original_df['Industry'].unique() if original_df is not None else ["IT Services", "Product Based"])
-    location = st.selectbox("Location", original_df['Location'].unique() if original_df is not None else ["Bangalore", "Hyderabad"])
-    job_role = st.selectbox("Job Role", original_df['Job_Role'].unique() if original_df is not None else ["Software Developer", "Data Scientist"])
-    company_type = st.selectbox("Company Type", original_df['Company_Type'].unique() if original_df is not None else ["MNC", "Startup"])
-    soft_skills = st.selectbox("Soft Skills", original_df['Soft_Skills'].unique() if original_df is not None else ["Excellent", "Good"])
-    notice_period = st.selectbox("Notice Period", original_df['Notice_Period'].unique() if original_df is not None else ["30 Days", "15 Days"])
-    years_of_experience = st.number_input("Years of Experience", min_value=0, max_value=50, value=5)
-    aptitude_score = st.number_input("Aptitude Score", min_value=0, max_value=100, value=80)
-    interview_score = st.number_input("Interview Score", min_value=0, max_value=100, value=75)
-    current_salary = st.number_input("Current Salary", min_value=0, value=1000000)
-    skills = st.text_input("Skills (separate by ';')", "Python;SQL")
-    certifications = st.text_input("Certifications (separate by ';')", "AWS Certification")
+    # Create input fields (make sure names match what the user will provide)
+    gender = st.selectbox("Gender", ["Male", "Female", "Other"], key="gender")
+    work_gap_status = st.selectbox("Work Gap Status", ["Yes", "No"], key="work_gap")
+    education_level = st.selectbox("Education Level", original_df['Education_Level'].unique() if original_df is not None else ["MCA", "B.Tech"], key="education")
+    industry = st.selectbox("Industry", original_df['Industry'].unique() if original_df is not None else ["IT Services", "Product Based"], key="industry")
+    location = st.selectbox("Location", original_df['Location'].unique() if original_df is not None else ["Bangalore", "Hyderabad"], key="location")
+    job_role = st.selectbox("Job Role", original_df['Job_Role'].unique() if original_df is not None else ["Software Developer", "Data Scientist"], key="job_role")
+    company_type = st.selectbox("Company Type", original_df['Company_Type'].unique() if original_df is not None else ["MNC", "Startup"], key="company")
+    soft_skills = st.selectbox("Soft Skills", original_df['Soft_Skills'].unique() if original_df is not None else ["Excellent", "Good"], key="soft_skills")
+    notice_period = st.selectbox("Notice Period", original_df['Notice_Period'].unique() if original_df is not None else ["30 Days", "15 Days"], key="notice")
+    experience = st.number_input("Years of Experience", min_value=0, max_value=50, value=5, key="experience")  # Changed variable name
+    aptitude = st.number_input("Aptitude Score", min_value=0, max_value=100, value=80, key="aptitude")  # Changed variable name
+    interview_score = st.number_input("Interview Score", min_value=0, max_value=100, value=75, key="interview")
+    current_compensation = st.number_input("Current Salary", min_value=0, value=1000000, key="current_salary")  # Changed variable name
+    skills = st.text_input("Skills (separate by ';')", "Python;SQL", key="skills")
+    certifications = st.text_input("Certifications (separate by ';')", "AWS Certification", key="certifications")
 
     if st.button("Predict Expected Salary"):
         input_data = {
             "Gender": gender,
             "Work_Gap_Status": work_gap_status,
-            "Education_Level": education_level,
-            "Industry": industry,
-            "Location": location,
-            "Job_Role": job_role,
-            "Company_Type": company_type,
-            "Soft_Skills": soft_skills,
-            "Notice_Period": notice_period,
-            "Years_of_Experience": years_of_experience,
-            "Aptitude_Score": aptitude_score,
+            "education_level": education_level,  # Changed key
+            "industry": industry,  # Changed key
+            "location": location,  # Changed key
+            "job_role": job_role,  # Changed key
+            "company_type": company_type,  # Changed key
+            "soft_skills": soft_skills,  # Changed key
+            "notice_period": notice_period,  # Changed key
+            "experience": years_of_experience,  # Changed key
+            "aptitude": aptitude_score,  # Changed key
             "Interview_Score": interview_score,
-            "Current_Salary": current_salary,
+            "current_compensation": current_salary,  # Changed key
             "Skills": skills,
             "Certifications": certifications
         }
@@ -165,6 +175,7 @@ def main():
                 st.success(f"Predicted Expected Salary: ₹{int(np.round(prediction))}")
             except Exception as e:
                 st.error(f"Error during prediction: {e}")
+
 
 if __name__ == '__main__':
     main()
